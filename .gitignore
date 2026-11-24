@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# generated content registries
+/lib/generated/
+/components/widgets/registry.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# audit & sitcom temp outputs
+.audit-tmp/
+scripts/sitcom/out/
+scripts/sitcom/tts_cache/
+scripts/sitcom/__pycache__/
+scripts/sitcom/qa/
